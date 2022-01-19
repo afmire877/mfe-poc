@@ -15,9 +15,9 @@ registerApplication(
 )
 
 registerApplication(
-  'body',
+  'mobility',
   // @ts-ignore
-  () => import('home-body/Body'),
+  () => import('home-body/Mobility'),
   (location) => location.pathname.startsWith('/'),
 )
 
